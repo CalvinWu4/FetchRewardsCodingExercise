@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
             // Add items for this listId
             items.forEach { item ->
                 val itemView = TextView(this).apply {
-                    text = "Name: ${item.name} (ID: ${item.id})"
+                    text = "${item.name}"
                     setPadding(32, 8, 16, 8)
                 }
                 container.addView(itemView)
