@@ -1,7 +1,3 @@
 <resources>
     <string name="app_name">Fetch Rewards Coding Exercise</string>
-    <string name="base_currency">AUD: 1.00</string>
-    <string name="nzd">NZD:</string>
-    <string name="usd">USD:</string>
-    <string name="gbp">GBP:</string>
 </resources>
