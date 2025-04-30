@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     private fun fetchData() {
         CoroutineScope(Dispatchers.IO).launch {
             try {
-                val json = URL("https://fetch-hiring.s3.amazonaws.com/hiring.json").readText()
+                val json = URL("https://hiring.fetch.com/hiring.json").readText()
                 val itemType = object : TypeToken<List<Item>>() {}.type
                 val items = gson.fromJson<List<Item>>(json, itemType)
 
